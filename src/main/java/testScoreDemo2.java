@@ -10,8 +10,8 @@
  */
 public class testScoreDemo2 {
     public static void main(String[] args) throws Exception {
-        double[] goodStudent = {95.5, 85.9, 69.2, 72.0, 87.5};
-        double[] badStudent = {-15.0,12.3, 103.0, 99.0,-2.5};
+        double[] goodStudent = {95.5, 85.5, 69.0, 72.0, 87.5};
+        double[] badStudent = {15.0,12.3, 103.0, 99.0,-2.5};
         testScore2 test = null;
         
         try{
@@ -28,6 +28,6 @@ public class testScoreDemo2 {
             System.out.println(e.getMessage());
         }
         
-        System.out.println("Good Scores:" + "\n The Average of the good scores is " + test.getAverage());
+        System.out.println("\n Good Scores:" + "\n The Average of the good scores is " + test.getAverage());
     }
 }
